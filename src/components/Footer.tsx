@@ -135,7 +135,7 @@ export function Footer({ withBacklink }: IFooterProps) {
             align={{ md: 'center' }}
           >
             <Text>
-              © 2021{' '}
+              © {new Date().getFullYear()}{' '}
               <Link href={'/'} textDecoration="underline">
                 {BRAND}
               </Link>{' '}
